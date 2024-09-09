@@ -1,7 +1,7 @@
 # Biblia Reina Valera 1960 
 
 
-...................  ![{E0D35C5C-2AE1-4CDD-BF74-81B3E7515009}](https://github.com/user-attachments/assets/62a0bee7-147c-47ee-9d7c-1fa6fbe77116)
+···················>  ![{E0D35C5C-2AE1-4CDD-BF74-81B3E7515009}](https://github.com/user-attachments/assets/62a0bee7-147c-47ee-9d7c-1fa6fbe77116)
 https://github.com/pedrogalvis/biblia-reina-valera-1960/
 
 # Descarga gratis la Biblia 1960 Reina Valera en formato PDF
