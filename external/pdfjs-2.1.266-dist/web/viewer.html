@@ -7,7 +7,8 @@
     <meta name="google" content="notranslate">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Biblia Reina Valera 1960</title>
-
+<meta name="keywords" content=" IDMJI, Descarga gratis la Biblia 1960 Reina Valera en formato PDF, La Biblia 1960 Reina Valera en formato PDF: una forma accesible de acceder a la Palabra de Dios, Historia de la Biblia 1960 Reina Valera en formato PDF, Características de la Biblia 1960 Reina Valera en formato PDF, Importancia de la Biblia 1960 Reina Valera en formato PDF, Beneficios de descargar la Biblia 1960 Reina Valera en formato PDF, ¿Cómo puedo descargar la Biblia 1960 Reina Valera en formato PDF?, ¿Dónde puedo encontrar una versión digital de la Biblia 1960 Reina Valera para leer en mi dispositivo?, Descargar y compartir la Biblia 1960 Reina Valera en formato PDF de forma gratuita en línea"/>
+       
 
     <link rel="stylesheet" href="viewer.css">
 
@@ -26,7 +27,35 @@
     <script src="../../../pdf-turn/pdf-turn.js"></script>
 
   </head>
+<body>
+  
+    <p>Visitas: <span id="visitCount"></span></p>
+    <p>Descargas: <span id="downloadCount"></span></p>
+    <a href="ruta/al/archivo.pdf" id="downloadLink" download>Descargar PDF</a>
 
+    <script>
+        // Contador de visitas
+        if (localStorage.pageVisitCount) {
+            localStorage.pageVisitCount = Number(localStorage.pageVisitCount) + 1;
+        } else {
+            localStorage.pageVisitCount = 1;
+        }
+        document.getElementById('visitCount').innerText = localStorage.pageVisitCount;
+
+        // Contador de descargas
+        if (localStorage.downloadCount) {
+            localStorage.downloadCount = Number(localStorage.downloadCount);
+        } else {
+            localStorage.downloadCount = 0;
+        }
+        document.getElementById('downloadCount').innerText = localStorage.downloadCount;
+
+        document.getElementById('downloadLink').addEventListener('click', function() {
+            localStorage.downloadCount = Number(localStorage.downloadCount) + 1;
+            document.getElementById('downloadCount').innerText = localStorage.downloadCount;
+        });
+    </script>
+</body>
   <body tabindex="1" class="loadingInProgress">
     <div id="outerContainer">
 
