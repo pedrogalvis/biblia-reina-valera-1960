@@ -34,11 +34,11 @@
         }
     </style>
   </head>
-<section>
+<div>
   
     <p>Visitas: <span id="visitCount"></span></p>
     <p>Descargas: <span id="downloadCount"></span></p>
-    <a href="ruta/al/archivo.pdf" id="downloadLink" download>Descargar PDF</a>
+    <a href="/.pdf" id="downloadLink" download>Descargar PDF</a>
 
     <script>
         // Contador de visitas
@@ -62,7 +62,7 @@
             document.getElementById('downloadCount').innerText = localStorage.downloadCount;
         });
     </script>
-</section>
+</div>
   <body tabindex="1" class="loadingInProgress">
     <div id="outerContainer">
 
